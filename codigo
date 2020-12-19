@@ -1,0 +1,4 @@
+for (const select of document.getElementsByTagName('select')) {
+    select.value = 4;
+    select.onchange();
+}
